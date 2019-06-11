@@ -30,15 +30,15 @@ class MovieListState extends State<Dashboard> {
     return Scaffold(
       appBar: AppBar(
         title: FlatButton(
-                    onPressed: () {
-                      NavigationRouter.switchToLogin(context);
-                    },
-                    child: Text("Log Out",
-                        style: TextStyle(
-                            fontWeight: FontWeight.w300,
-                            color: Colors.black,
-                            fontSize: 16)),
-                  ),
+          onPressed: () {
+            NavigationRouter.switchToLogin(context);
+          },
+          child: Text("Log Out",
+              style: TextStyle(
+                  fontWeight: FontWeight.w300,
+                  color: Colors.black,
+                  fontSize: 16)),
+        ),
       ),
       body: StreamBuilder(
         stream: bloc.allMovies,
@@ -53,20 +53,18 @@ class MovieListState extends State<Dashboard> {
       ),
     );
   }
-  
 
   Widget buildList(AsyncSnapshot<ItemModel> snapshot) {
     return GridView.builder(
         itemCount: snapshot.data.results.length,
         gridDelegate:
-        new SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
+            new SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
         itemBuilder: (BuildContext context, int index) {
           return GridTile(
-            child: InkResponse( 
+            child: InkResponse(
               enableFeedback: true,
               child: Image.network(
-                'https://image.tmdb.org/t/p/w185${snapshot.data
-                    .results[index].poster_path}',
+                'https://image.tmdb.org/t/p/w185${snapshot.data.results[index].poster_path}',
                 fit: BoxFit.cover,
               ),
               onTap: () => openDetailPage(snapshot.data, index),
