@@ -6,17 +6,17 @@ class SignupBloc extends Object implements Base {
   final _usernameController = BehaviorSubject<String>();
   final _emailController = BehaviorSubject<String>();
   final _passwordController = BehaviorSubject<String>();
-  final _ageController = BehaviorSubject<int>();
+  final _ageController = BehaviorSubject<String>();
 
   Stream<String> get username => _usernameController.stream;
   Stream<String> get email => _emailController.stream;
   Stream<String> get password => _passwordController.stream;
-  Stream<int> get age => _ageController.stream;
+  Stream<String> get age => _ageController.stream;
 
   Function(String) get usernameChanged => _usernameController.sink.add;
   Function(String) get emailChanged => _emailController.sink.add;
   Function(String) get passwordChanged => _passwordController.sink.add;
-  Function(int) get ageChanged => _ageController.sink.add;
+  Function(String) get ageChanged => _ageController.sink.add;
 
   bool submitValidateion() {
     if (_usernameController.value != null &&

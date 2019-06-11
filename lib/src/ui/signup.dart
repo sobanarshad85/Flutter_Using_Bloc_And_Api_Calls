@@ -10,8 +10,7 @@ class Signup extends StatelessWidget {
 
     submissionIsReady(BuildContext context, SignupBloc bloc) {
       var check = bloc.submit();
-     print(check);
-     
+      print(check);
     }
 
     return Scaffold(
@@ -63,54 +62,57 @@ class Signup extends StatelessWidget {
                       keyboardType: TextInputType.text,
                       obscureText: true,
                       decoration: InputDecoration(
-                          border: OutlineInputBorder(),
-                          hintText: 'Enter Password',
-                          labelText: "Password",
-                          errorText: snapshot.error,),
+                        border: OutlineInputBorder(),
+                        hintText: 'Enter Password',
+                        labelText: "Password",
+                        errorText: snapshot.error,
+                      ),
                     ),
               ),
               SizedBox(
                 height: 20.0,
               ),
+              StreamBuilder<String>(
+                stream: bloc.age,
+                builder: (context, snapshot) => TextField(
+                      onChanged: bloc.ageChanged,
+                      keyboardType: TextInputType.number,
+                      decoration: InputDecoration(
+                          border: OutlineInputBorder(),
+                          hintText: "Enter age",
+                          labelText: "Age",
+                          errorText: snapshot.error),
+                    ),
+              ),
               RaisedButton(
                 color: Colors.tealAccent,
-                onPressed: () => submissionIsReady(context, bloc,),
+                onPressed: () => submissionIsReady(
+                      context,
+                      bloc,
+                    ),
                 child: Text("Submit"),
               ),
-            SizedBox(height: 20.0,),
-           StreamBuilder<String>(
-                stream: bloc.username,
-                builder: (context, snapshot) => Text(
-                  '${snapshot.data}'
-                )
+              SizedBox(
+                height: 20.0,
               ),
-               SizedBox(height: 20.0,),
-           StreamBuilder<String>(
-                stream: bloc.email,
-                builder: (context, snapshot) => Text(
-                  '${snapshot.data}'
-                )
+              StreamBuilder<String>(
+                  stream: bloc.username,
+                  builder: (context, snapshot) => Text('${snapshot.data}')),
+              SizedBox(
+                height: 20.0,
               ),
-               SizedBox(height: 20.0,),
-           StreamBuilder<String>(
-                stream: bloc.password,
-                builder: (context, snapshot) => Text(
-                  '${snapshot.data}'
-                )
+              StreamBuilder<String>(
+                  stream: bloc.email,
+                  builder: (context, snapshot) => Text('${snapshot.data}')),
+              SizedBox(
+                height: 20.0,
               ),
-              SizedBox(height: 20.0,),
-              // StreamBuilder<int>(
-              //   stream: bloc.age,
-              //   builder: (context, snapshot) => TextField(
-              //         onChanged: bloc.ageChanged,
-              //         keyboardType: TextInputType.number,
-              //         decoration: InputDecoration(
-              //             border: OutlineInputBorder(),
-              //             hintText: "Enter username",
-              //             labelText: "Username",
-              //             errorText: snapshot.error),
-              //       ),
-              // ),
+              StreamBuilder<String>(
+                  stream: bloc.password,
+                  builder: (context, snapshot) => Text('${snapshot.data}')),
+              StreamBuilder<String>(
+                  stream: bloc.age,
+                  builder: (context, snapshot) => Text('${snapshot.data}')),
             ],
           ),
         ),
