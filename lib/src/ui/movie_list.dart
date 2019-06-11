@@ -53,6 +53,7 @@ class MovieListState extends State<Dashboard> {
       ),
     );
   }
+  
 
   Widget buildList(AsyncSnapshot<ItemModel> snapshot) {
     return GridView.builder(
