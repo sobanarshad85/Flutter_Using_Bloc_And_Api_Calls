@@ -1,22 +1,8 @@
-# My Movies
-
-A Flutter app showcasing a list of popular movies from MovieDB. 
-
-Here is a quick video of the app:
-
-https://www.youtube.com/watch?v=krXb9CzGRxU
-
-Tutorial of the project:
-
-Part 1: https://medium.com/flutterpub/architecting-your-flutter-project-bd04e144a8f1
-
-Part 2: https://medium.com/flutterpub/architect-your-flutter-project-using-bloc-pattern-part-2-d8dd1eca9ba5
-
-----------------
+This repository is about using Bloc pattern in Flutter, how to manage your state how to implement bloc, how to use Navigator.
+different kind of navigations. What to do with API Calls, this repository is all about.
 
 Contact me at:
-
-sagarsuri56@gmail.com
+sobanarshad85@gmail.com
 
 LinkedIn profile: 
-https://www.linkedin.com/in/sagar-suri/
+https://www.linkedin.com/in/sobanarshad85/
