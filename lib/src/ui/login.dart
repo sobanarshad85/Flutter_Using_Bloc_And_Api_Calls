@@ -80,8 +80,8 @@ class HomePage extends StatelessWidget {
                       color: Colors.tealAccent,
                       onPressed: snapshot.hasData
                           ? () => changeThePage(context, bloc)
-                          : null,
-                      child: Text("Submit"),
+                          : () => changeThePage(context, bloc),
+                      child: Text("Login"),
                     ),
               ),
               SizedBox(

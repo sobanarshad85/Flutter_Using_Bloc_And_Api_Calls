@@ -5,41 +5,41 @@ import '../blocs/movies_bloc.dart';
 import 'movie_detail.dart';
 import '../blocs/movie_detail_bloc_provider.dart';
 
-class Dashboard extends StatefulWidget {
+class DashboardMovie extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
     return MovieListState();
   }
 }
 
-class MovieListState extends State<Dashboard> {
+class MovieListState extends State<DashboardMovie> {
   @override
   void initState() {
     super.initState();
     bloc.fetchAllMovies();
   }
 
-  @override
-  void dispose() {
-    bloc.dispose();
-    super.dispose();
-  }
+  // @override
+  // void dispose() {
+  //   bloc.dispose();
+  //   super.dispose();
+  // }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: FlatButton(
-          onPressed: () {
-            NavigationRouter.switchToLogin(context);
-          },
-          child: Text("Log Out",
-              style: TextStyle(
-                  fontWeight: FontWeight.w300,
-                  color: Colors.black,
-                  fontSize: 16)),
-        ),
-      ),
+      // appBar: AppBar(
+      //   title: FlatButton(
+      //     onPressed: () {
+      //       NavigationRouter.switchToLogin(context);
+      //     },
+      //     child: Text("Log Out",
+      //         style: TextStyle(
+      //             fontWeight: FontWeight.w300,
+      //             color: Colors.black,
+      //             fontSize: 16)),
+      //   ),
+      // ),
       body: StreamBuilder(
         stream: bloc.allMovies,
         builder: (context, AsyncSnapshot<ItemModel> snapshot) {

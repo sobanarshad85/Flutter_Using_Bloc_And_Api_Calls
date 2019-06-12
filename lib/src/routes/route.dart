@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_movies/src/ui/dashboard/dashboard.dart';
 import 'package:my_movies/src/ui/login.dart';
 import 'package:my_movies/src/ui/movie_list.dart';
 import 'package:my_movies/src/ui/signup.dart';
