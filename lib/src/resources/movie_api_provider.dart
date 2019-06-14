@@ -9,6 +9,19 @@ class MovieApiProvider {
   final _apiKey = '802b2c4b88ea1183e50e6b285a27696e';
   final _baseUrl = "http://api.themoviedb.org/3/movie";
 
+  Future<User> fetchMovieList1() async {
+    final response =
+        await client.get("https://jsonplaceholder.typicode.com/users");
+    if (response.statusCode == 200) {
+      // If the call to the server was successful, parse the JSON
+     print(User.fromJson(json.decode(response.body)));
+     return User.fromJson(json.decode(response.body));
+    } else {
+      // If that call was not successful, throw an error.
+      throw Exception('Failed to load post');
+    }
+  }
+
   Future<ItemModel> fetchMovieList() async {
     final response = await client.get("$_baseUrl/popular?api_key=$_apiKey");
     if (response.statusCode == 200) {

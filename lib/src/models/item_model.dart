@@ -26,6 +26,114 @@ class ItemModel {
   int get page => _page;
 }
 
+class Users {
+  List<User> _users = [];
+
+  List<User> get users => _users;
+
+  Users.fromJson(Map<String, dynamic> usersjson) {
+    List<User> temp = [];
+    for (int i = 0; i < 9; i++) {
+      User result = User(usersjson[i]);
+      temp.add(result);
+    }
+    _users = temp;
+  }
+}
+
+class User {
+  int _id;
+  String _name;
+  String _username;
+  String _email;
+  String _phone;
+  String _website;
+  Address _address;
+  Company _company;
+
+  int get id => _id;
+  String get name => _name;
+  String get username => _username;
+  String get email => _email;
+  String get phone => _phone;
+  String get website => _website;
+  Address get address => _address;
+  Company get company => _company;
+
+  User(parsedUser) {
+    _id = parsedUser["id"];
+    _name = parsedUser["name"];
+    _username = parsedUser["username"];
+    _email = parsedUser["email"];
+    _phone = parsedUser["phone"];
+    _website = parsedUser["website"];
+    _address = Address.fromJson(parsedUser["address"]);
+    _company = Company.fromJson(parsedUser["company"]);
+  }
+
+  User.fromJson(Map<String, dynamic> parsedUser) {
+    _id = parsedUser["id"];
+    _name = parsedUser["name"];
+    _username = parsedUser["username"];
+    _email = parsedUser["email"];
+    _phone = parsedUser["phone"];
+    _website = parsedUser["website"];
+    _address = Address.fromJson(parsedUser["address"]);
+    _company = Company.fromJson(parsedUser["company"]);
+  }
+}
+
+class Address {
+  String _street;
+  String _suite;
+  String _city;
+  String _zipcode;
+  Geo _geo;
+
+  String get street => _street;
+  String get suite => _suite;
+  String get city => _city;
+  String get zipcode => _zipcode;
+  Geo get geo => _geo;
+
+  Address.fromJson(Map<String, dynamic> parsedAddress) {
+    _street = parsedAddress["street"];
+    _suite = parsedAddress["suite"];
+    _city = parsedAddress["city"];
+    _zipcode = parsedAddress["zipcode"];
+    _geo = Geo.fromJson(parsedAddress["geo"]);
+  }
+}
+
+class Geo {
+  String _lat;
+  String _lng;
+
+  String get lat => _lat;
+  String get lng => _lng;
+
+  Geo.fromJson(Map<String, dynamic> parsedGeo) {
+    _lat = parsedGeo["lat"];
+    _lng = parsedGeo["lng"];
+  }
+}
+
+class Company {
+  String _name;
+  String _catchPhrase;
+  String _bs;
+
+  String get name => _name;
+  String get catchPhrase => _catchPhrase;
+  String get bs => _bs;
+
+  Company.fromJson(Map<String, dynamic> parsedCompany) {
+    _name = parsedCompany["name"];
+    _catchPhrase = parsedCompany["catchPhrase"];
+    _bs = parsedCompany["bs"];
+  }
+}
+
 class _Result {
   int _vote_count;
   int _id;

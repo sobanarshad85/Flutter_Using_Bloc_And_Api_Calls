@@ -2,7 +2,6 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:my_movies/src/routes/navigation_router.dart';
-import 'package:my_movies/src/ui/dashboard/fragments/logout.dart';
 import 'package:my_movies/src/ui/movie_list.dart';
 // import 'package:redeye/util/navigation_router.dart';
 import 'fragments/home.dart';

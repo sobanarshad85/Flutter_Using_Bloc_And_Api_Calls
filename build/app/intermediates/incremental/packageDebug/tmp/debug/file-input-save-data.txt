@@ -1,9 +1,9 @@
 #Internal package file, do not edit.
-#Tue Jun 11 18:35:52 PKT 2019
+#Thu Jun 13 11:03:01 PKT 2019
 4.path=flutter_assets/kernel_blob.bin
 13.baseType=DIRECTORY
 8.set=ASSET
-6.path=snapshot_blob.bin.d
+6.path=lib/armeabi-v7a/libflutter.so
 0.baseType=DIRECTORY
 10.path=flutter_assets/vm_snapshot_data
 5.baseType=DIRECTORY
@@ -12,7 +12,7 @@
 12.path=flutter_assets/AssetManifest.json
 3.base=/home/soban-arshad/Desktop/flutter project/MyMovies/build/app/intermediates/merged_assets/debug/out
 4.set=ASSET
-5.base=/home/soban-arshad/Desktop/flutter project/MyMovies/build/app/intermediates/transforms/mergeJniLibs/debug/0
+5.base=/home/soban-arshad/Desktop/flutter project/MyMovies/build/app/intermediates/merged_assets/debug/out
 7.base=/home/soban-arshad/Desktop/flutter project/MyMovies/build/app/intermediates/transforms/mergeJniLibs/debug/0
 11.base=/home/soban-arshad/Desktop/flutter project/MyMovies/build/app/intermediates/merged_assets/debug/out
 9.base=/home/soban-arshad/Desktop/flutter project/MyMovies/build/app/intermediates/merged_assets/debug/out
@@ -29,18 +29,18 @@
 7.baseType=DIRECTORY
 3.path=snapshot_blob.bin.d.fingerprint
 10.set=ASSET
-5.path=lib/armeabi-v7a/libflutter.so
+5.path=snapshot_blob.bin.d
 0.base=/home/soban-arshad/Desktop/flutter project/MyMovies/build/app/intermediates/merged_assets/debug/out
 7.path=lib/x86/libflutter.so
 11.path=flutter_assets/isolate_snapshot_data
 9.path=flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
-6.set=ASSET
+6.set=NATIVE_RESOURCE
 2.base=/home/soban-arshad/Desktop/flutter project/MyMovies/build/app/intermediates/merged_assets/debug/out
 13.path=classes.dex
 11.baseType=DIRECTORY
 4.base=/home/soban-arshad/Desktop/flutter project/MyMovies/build/app/intermediates/merged_assets/debug/out
 3.baseType=DIRECTORY
-6.base=/home/soban-arshad/Desktop/flutter project/MyMovies/build/app/intermediates/merged_assets/debug/out
+6.base=/home/soban-arshad/Desktop/flutter project/MyMovies/build/app/intermediates/transforms/mergeJniLibs/debug/0
 10.base=/home/soban-arshad/Desktop/flutter project/MyMovies/build/app/intermediates/merged_assets/debug/out
 13.set=DEX
 8.base=/home/soban-arshad/Desktop/flutter project/MyMovies/build/app/intermediates/merged_assets/debug/out
@@ -51,7 +51,7 @@
 count=14
 12.baseType=DIRECTORY
 4.baseType=DIRECTORY
-5.set=NATIVE_RESOURCE
+5.set=ASSET
 9.baseType=DIRECTORY
 0.path=flutter_assets/FontManifest.json
 12.set=ASSET
