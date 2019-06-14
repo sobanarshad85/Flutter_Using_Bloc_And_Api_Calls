@@ -1,4 +1,4 @@
-#Fri Jun 14 11:26:36 PKT 2019
+#Fri Jun 14 15:06:51 PKT 2019
 base.0=/home/soban-arshad/Desktop/flutter project/MyMovies/build/app/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
