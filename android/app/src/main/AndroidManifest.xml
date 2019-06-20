@@ -16,6 +16,10 @@
         android:name="io.flutter.app.FlutterApplication"
         android:label="my_movies"
         android:icon="@mipmap/ic_launcher">
+
+        <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyCqJspnvnZDuMNrj5hBMekCY3k69pQX24c"/>
+               
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

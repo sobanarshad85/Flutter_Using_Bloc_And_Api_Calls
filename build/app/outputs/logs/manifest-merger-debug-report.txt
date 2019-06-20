@@ -1,74 +1,142 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:1:1-39:12
-INJECTED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:1:1-39:12
-INJECTED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:1:1-39:12
-INJECTED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:1:1-39:12
-INJECTED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:1:1-39:12
-INJECTED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:1:1-39:12
-INJECTED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:1:1-39:12
+ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:1:1-43:12
+MERGED from [:google_maps_flutter] /home/soban-arshad/Desktop/flutter project/MyMovies/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/bc54f8510d47430ef8d1601151c42d15/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/76d2b10c8168b7b220fc123ab5020275/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/d4cfaaaa00dbde6ed0a208ce4a3253db/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/4775abdc338f87a854b575305f133ede/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/ccf3e94f89de898d91348c410f407cbc/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/893c25b9d3ce35174947c626d56e4499/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/3146484c67d7a25313efb318896fb31e/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/f3c1ecafdb84d5c0ade0938ff89406a7/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/06a84c1e202c6959eec68723db404230/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/2ff94fbd88e302a22e758a470592fd1d/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/e0a6868e674343779ff3ad9ff4107d6a/AndroidManifest.xml:17:1-30:12
+INJECTED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:1:1-43:12
 	package
 		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:2:5-33
 		INJECTED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:1:1-39:12
+		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:1:1-43:12
 		INJECTED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:1:1-39:12
+		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:1:1-43:12
 		INJECTED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:8:5-66
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/bc54f8510d47430ef8d1601151c42d15/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/bc54f8510d47430ef8d1601151c42d15/AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:8:22-64
 application
-ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:15:5-38:19
+ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:15:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/bc54f8510d47430ef8d1601151c42d15/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/bc54f8510d47430ef8d1601151c42d15/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/76d2b10c8168b7b220fc123ab5020275/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/76d2b10c8168b7b220fc123ab5020275/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/d4cfaaaa00dbde6ed0a208ce4a3253db/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/d4cfaaaa00dbde6ed0a208ce4a3253db/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/4775abdc338f87a854b575305f133ede/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/4775abdc338f87a854b575305f133ede/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/ccf3e94f89de898d91348c410f407cbc/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/ccf3e94f89de898d91348c410f407cbc/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/893c25b9d3ce35174947c626d56e4499/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/893c25b9d3ce35174947c626d56e4499/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/3146484c67d7a25313efb318896fb31e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/3146484c67d7a25313efb318896fb31e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/f3c1ecafdb84d5c0ade0938ff89406a7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/f3c1ecafdb84d5c0ade0938ff89406a7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/06a84c1e202c6959eec68723db404230/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/06a84c1e202c6959eec68723db404230/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/2ff94fbd88e302a22e758a470592fd1d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/2ff94fbd88e302a22e758a470592fd1d/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/e0a6868e674343779ff3ad9ff4107d6a/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/e0a6868e674343779ff3ad9ff4107d6a/AndroidManifest.xml:24:5-28:19
 	android:label
 		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:17:9-34
 	android:icon
 		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:18:9-43
 	android:name
 		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:16:9-57
-activity#com.sagar.mymovies.MainActivity
-ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:19:9-37:20
-	android:launchMode
-		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:21:13-43
-	android:hardwareAccelerated
-		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:24:13-47
-	android:windowSoftInputMode
-		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:25:13-55
-	android:configChanges
-		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:23:13-137
-	android:theme
-		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:22:13-47
-	android:name
-		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:20:13-41
-meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
-ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:30:13-32:40
+meta-data#com.google.android.geo.API_KEY
+ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:20:9-21:73
 	android:value
-		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:32:17-37
+		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:21:16-71
 	android:name
-		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:31:17-82
+		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:20:20-65
+activity#com.sagar.mymovies.MainActivity
+ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:23:9-41:20
+	android:launchMode
+		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:25:13-43
+	android:hardwareAccelerated
+		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:28:13-47
+	android:windowSoftInputMode
+		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:29:13-55
+	android:configChanges
+		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:27:13-137
+	android:theme
+		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:26:13-47
+	android:name
+		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:24:13-41
+meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
+ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:34:13-36:40
+	android:value
+		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:36:17-37
+	android:name
+		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:35:17-82
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:33:13-36:29
+ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:37:13-40:29
 action#android.intent.action.MAIN
-ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:34:17-68
+ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:38:17-68
 	android:name
-		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:34:25-66
+		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:38:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:35:17-76
+ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:39:17-76
 	android:name
-		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:35:27-74
+		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:39:27-74
 uses-sdk
 INJECTED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml
+MERGED from [:google_maps_flutter] /home/soban-arshad/Desktop/flutter project/MyMovies/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_maps_flutter] /home/soban-arshad/Desktop/flutter project/MyMovies/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/bc54f8510d47430ef8d1601151c42d15/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/bc54f8510d47430ef8d1601151c42d15/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/76d2b10c8168b7b220fc123ab5020275/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/76d2b10c8168b7b220fc123ab5020275/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/d4cfaaaa00dbde6ed0a208ce4a3253db/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/d4cfaaaa00dbde6ed0a208ce4a3253db/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/4775abdc338f87a854b575305f133ede/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/4775abdc338f87a854b575305f133ede/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/ccf3e94f89de898d91348c410f407cbc/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/ccf3e94f89de898d91348c410f407cbc/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/893c25b9d3ce35174947c626d56e4499/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/893c25b9d3ce35174947c626d56e4499/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/3146484c67d7a25313efb318896fb31e/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/3146484c67d7a25313efb318896fb31e/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/f3c1ecafdb84d5c0ade0938ff89406a7/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/f3c1ecafdb84d5c0ade0938ff89406a7/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/06a84c1e202c6959eec68723db404230/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/06a84c1e202c6959eec68723db404230/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/2ff94fbd88e302a22e758a470592fd1d/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/2ff94fbd88e302a22e758a470592fd1d/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/e0a6868e674343779ff3ad9ff4107d6a/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/e0a6868e674343779ff3ad9ff4107d6a/AndroidManifest.xml:20:5-22:41
 INJECTED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/ccf3e94f89de898d91348c410f407cbc/AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
 		INJECTED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml
 		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml
@@ -77,3 +145,55 @@ INJECTED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/sr
 		INJECTED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml
 		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/bc54f8510d47430ef8d1601151c42d15/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/bc54f8510d47430ef8d1601151c42d15/AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/bc54f8510d47430ef8d1601151c42d15/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/bc54f8510d47430ef8d1601151c42d15/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/bc54f8510d47430ef8d1601151c42d15/AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/bc54f8510d47430ef8d1601151c42d15/AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/bc54f8510d47430ef8d1601151c42d15/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/bc54f8510d47430ef8d1601151c42d15/AndroidManifest.xml:34:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/76d2b10c8168b7b220fc123ab5020275/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/76d2b10c8168b7b220fc123ab5020275/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/76d2b10c8168b7b220fc123ab5020275/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/76d2b10c8168b7b220fc123ab5020275/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/4775abdc338f87a854b575305f133ede/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/4775abdc338f87a854b575305f133ede/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/4775abdc338f87a854b575305f133ede/AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/ccf3e94f89de898d91348c410f407cbc/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/893c25b9d3ce35174947c626d56e4499/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/893c25b9d3ce35174947c626d56e4499/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/3146484c67d7a25313efb318896fb31e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/3146484c67d7a25313efb318896fb31e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/f3c1ecafdb84d5c0ade0938ff89406a7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/f3c1ecafdb84d5c0ade0938ff89406a7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/06a84c1e202c6959eec68723db404230/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/06a84c1e202c6959eec68723db404230/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/2ff94fbd88e302a22e758a470592fd1d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/2ff94fbd88e302a22e758a470592fd1d/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/ccf3e94f89de898d91348c410f407cbc/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/ccf3e94f89de898d91348c410f407cbc/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/e0a6868e674343779ff3ad9ff4107d6a/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/e0a6868e674343779ff3ad9ff4107d6a/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/e0a6868e674343779ff3ad9ff4107d6a/AndroidManifest.xml:26:13-58
