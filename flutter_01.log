@@ -1,0 +1,45 @@
+Flutter crash report; please file at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run
+
+## exception
+
+SocketException: SocketException: Write failed (OS Error: Broken pipe, errno = 32), port = 0
+
+```
+null```
+
+## flutter doctor
+
+```
+[32m[✓][39m Flutter (Channel dev, v1.7.4, on Linux, locale en_US.UTF-8)
+    [32m•[39m Flutter version 1.7.4 at /home/soban-arshad/Desktop/flutter
+    [32m•[39m Framework revision dfecafa4ab (6 days ago), 2019-06-14 09:46:23 -0700
+    [32m•[39m Engine revision 2589785b5c
+    [32m•[39m Dart version 2.4.0
+
+[32m[✓][39m Android toolchain - develop for Android devices (Android SDK version 28.0.3)
+    [32m•[39m Android SDK at /home/soban-arshad/Android/Sdk
+    [32m•[39m Android NDK location not configured (optional; useful for native profiling
+      support)
+    [32m•[39m Platform android-28, build-tools 28.0.3
+    [32m•[39m ANDROID_HOME = /home/soban-arshad/Android/Sdk
+    [32m•[39m Java binary at:
+      /opt/android-studio-ide-182.5314842-linux/android-studio/jre/bin/java
+    [32m•[39m Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1248-b01)
+    [32m•[39m All Android licenses accepted.
+
+[32m[✓][39m Android Studio (version 3.3)
+    [32m•[39m Android Studio at /opt/android-studio-ide-182.5314842-linux/android-studio
+    [32m•[39m Flutter plugin version 34.0.1
+    [32m•[39m Dart plugin version 182.5215
+    [32m•[39m Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1248-b01)
+
+[32m[✓][39m Connected device (1 available)
+    [32m•[39m Android SDK built for x86 • emulator-5554 • android-x86 • Android 9 (API 28)
+      (emulator)
+
+[32m•[39m No issues found!
+```
