@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Jun 18 18:01:38 PKT 2019
+#Tue Jun 18 18:22:28 PKT 2019
 4.path=lib/x86/libflutter.so
 8.set=ASSET
 6.path=flutter_assets/LICENSE
