@@ -19,21 +19,7 @@ class HomePageState extends State<KodetrApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        leading: IconButton(
-            icon: Icon(Icons.arrow_back),
-            onPressed: () {
-              //
-            }),
-        title: Text("New York"),
-        actions: <Widget>[
-          IconButton(
-              icon: Icon(Icons.search),
-              onPressed: () {
-                //
-              }),
-        ],
-      ),
+    
       body: Stack(
         children: <Widget>[
           _buildGoogleMap(context),
@@ -94,14 +80,14 @@ class HomePageState extends State<KodetrApp> {
               padding: const EdgeInsets.all(8.0),
               child: _boxes(
                   "https://lh5.googleusercontent.com/p/AF1QipO3VPL9m-b355xWeg4MXmOQTauFAEkavSluTtJU=w225-h160-k-no",
-                  40.738380, -73.988426,"Gramercy Tavern"),
+                  31.4670, 74.3048,"Kwanso"),
             ),
             SizedBox(width: 10.0),
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: _boxes(
                   "https://lh5.googleusercontent.com/p/AF1QipMKRN-1zTYMUVPrH-CcKzfTo6Nai7wdL7D8PMkt=w340-h160-k-no",
-                  40.761421, -73.981667,"Le Bernardin"),
+                  31.4800, 74.2995,"Johar Event Complex"),
             ),
             SizedBox(width: 10.0),
             Padding(
@@ -255,7 +241,7 @@ class HomePageState extends State<KodetrApp> {
       width: MediaQuery.of(context).size.width,
       child: GoogleMap(
         mapType: MapType.normal,
-        initialCameraPosition:  CameraPosition(target: LatLng(40.712776, -74.005974), zoom: 12),
+        initialCameraPosition:  CameraPosition(target: LatLng(31.4670, 74.3048), zoom: 12),
         onMapCreated: (GoogleMapController controller) {
           _controller.complete(controller);
         },
@@ -274,18 +260,18 @@ class HomePageState extends State<KodetrApp> {
 }
 
 Marker gramercyMarker = Marker(
-  markerId: MarkerId('gramercy'),
-  position: LatLng(40.738380, -73.988426),
-  infoWindow: InfoWindow(title: 'Gramercy Tavern'),
+  markerId: MarkerId('kwanso'),
+  position: LatLng(31.4670, 74.3048),
+  infoWindow: InfoWindow(title: 'Kwanso'),
   icon: BitmapDescriptor.defaultMarkerWithHue(
     BitmapDescriptor.hueViolet,
   ),
 );
 
 Marker bernardinMarker = Marker(
-  markerId: MarkerId('bernardin'),
-  position: LatLng(40.761421, -73.981667),
-  infoWindow: InfoWindow(title: 'Le Bernardin'),
+  markerId: MarkerId('Johar Event Complex'),
+  position: LatLng(31.4800, 74.2995),
+  infoWindow: InfoWindow(title: 'Johar Event Complex'),
   icon: BitmapDescriptor.defaultMarkerWithHue(
     BitmapDescriptor.hueViolet,
   ),
