@@ -4,7 +4,26 @@
             "outputFile": "/home/soban-arshad/Desktop/flutter project/MyMovies/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/soban-arshad/.gradle/caches/transforms-2/files-2.1/2ff94fbd88e302a22e758a470592fd1d/res/values-v16/values-v16.xml",
+                    "source": "/home/soban-arshad/.gradle/caches/transforms-2/files-2.1/c242acfc9816ab93dbb807bd48630c38/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/home/soban-arshad/.gradle/caches/transforms-2/files-2.1/35b9c3ef30d80ff950551f04d689ba79/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

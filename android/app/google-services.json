@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1086312944935",
+    "firebase_url": "https://mymovies-df841.firebaseio.com",
+    "project_id": "mymovies-df841",
+    "storage_bucket": "mymovies-df841.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086312944935:android:ee98a2327cd8d305",
+        "android_client_info": {
+          "package_name": "com.sagar.mymovies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086312944935-q2dbb5a5ooa1ujephnqndn6n8gsi7u9s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sagar.mymovies",
+            "certificate_hash": "6844fe9dcb62e3e992fed6aa325b586984af7673"
+          }
+        },
+        {
+          "client_id": "1086312944935-np8kcl686vrr8umc8p583sktlklectr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0RXqVzjyGWdZkBTneC-mRUp5KI4F2Xak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086312944935-np8kcl686vrr8umc8p583sktlklectr2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

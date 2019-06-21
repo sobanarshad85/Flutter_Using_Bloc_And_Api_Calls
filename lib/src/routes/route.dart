@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:my_movies/src/ui/dashboard/dashboard.dart';
 import 'package:my_movies/src/ui/login.dart';
+import 'package:my_movies/src/ui/login_facebook.dart';
 import 'package:my_movies/src/ui/movie_list.dart';
 import 'package:my_movies/src/ui/signup.dart';
 // import 'screens/splash/splash.dart';
@@ -14,7 +15,7 @@ import 'package:my_movies/src/ui/signup.dart';
 
 class Routes {
   final routes = <String, WidgetBuilder>{
-    "/Login": (BuildContext context) => Login(),
+    "/Login": (BuildContext context) => LoginPage(),
     "/Dashboard": (BuildContext context) => Dashboard(),
     "/Signup":(BuildContext context)=> Signup(),
   };
@@ -24,7 +25,7 @@ class Routes {
       new MaterialApp(
         title: 'RedEye',
         routes: routes,
-        home: Login(), //Splash(), //Dashboard(),
+        home: LoginPage(), //Splash(), //Dashboard(),
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
             primaryColor: Colors.deepPurple,
