@@ -10,11 +10,14 @@ MERGED from [:google_maps_flutter] /home/soban-arshad/Desktop/flutter project/My
 MERGED from [:google_sign_in] /home/soban-arshad/Desktop/flutter project/MyMovies/build/google_sign_in/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-9:12
 MERGED from [:firebase_core] /home/soban-arshad/Desktop/flutter project/MyMovies/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-core:16.0.9] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/b7f22ba7860a2cd13ab9637041f2ddbe/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.android:facebook-login:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/e6280b0dacbf5a30768d0dd8196ca126/AndroidManifest.xml:21:1-31:12
 MERGED from [com.google.firebase:firebase-auth:16.0.5] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/c0db3049d3730c4226463142da27ebcf/AndroidManifest.xml:17:1-42:12
-MERGED from [com.facebook.android:facebook-login:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/5bb3dfdc985c4a414d29027af72b8e68/AndroidManifest.xml:21:1-31:12
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/9d24807110517c168f5604640a65e372/AndroidManifest.xml:17:1-38:12
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/356f30ca45cc40eec37bd96b612f1e43/AndroidManifest.xml:17:1-39:12
 MERGED from [com.google.firebase:firebase-analytics:16.5.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/e4ca866bb923cfada01a62f9ccb2860b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.android:facebook-common:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/7fa4c5a00d6877229abca2da08c76f0f/AndroidManifest.xml:21:1-37:12
+MERGED from [com.facebook.android:facebook-core:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/aba57e6b12ce60e7747d48b4d7c671f0/AndroidManifest.xml:21:1-61:12
+MERGED from [androidx.appcompat:appcompat:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/c242acfc9816ab93dbb807bd48630c38/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/753253f4ddc32a6fe8cbc0f7962fd519/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/169e7f8b1f08e4e2840d7eee597b64b8/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/adc8dd51e6a3ad01cd9d21c9ff3d66ef/AndroidManifest.xml:2:1-7:12
@@ -34,9 +37,6 @@ MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/soban-arsh
 MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/75270df0db4c800de272be05882a8c81/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/4a7607d2534506d88d94a4e0b5d822a6/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-basement:16.2.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/34f3f369f2e8cafe69c1a1da79425972/AndroidManifest.xml:17:1-28:12
-MERGED from [com.facebook.android:facebook-common:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/b12c4f55a3b66d90cdced97189bbb738/AndroidManifest.xml:21:1-37:12
-MERGED from [com.facebook.android:facebook-core:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/6bb61f4c67334ae146207cdce0ef1b56/AndroidManifest.xml:21:1-53:12
-MERGED from [androidx.appcompat:appcompat:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/c242acfc9816ab93dbb807bd48630c38/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/0c45ff8fbb6c5616dd51ff6d496830fb/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/42c63521aaa99363463c8c85ae5dc6a1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.browser:browser:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/33e037cac6cdd2910fea5cc56733921a/AndroidManifest.xml:17:1-22:12
@@ -45,8 +45,8 @@ MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0-rc01] /home/soban-arsh
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/7835e75ff2315e2b19d3616e36b55856/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/25559ce1d94b83f27629a0d139468cf7/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/a3ac3177ff1d621417d4bf6bb20efda2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media:media:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/59760894126d120a9aea8769c87db2ef/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/9cd5946ed806ebbae27a3d60819d20f7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/59760894126d120a9aea8769c87db2ef/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/7618a853353b378da8b00e6fc7e7d882/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/bbf3b41cd7de38ab030ff77a090ff10d/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/e57aeb5ed6b99028fb3006a096e643c1/AndroidManifest.xml:17:1-22:12
@@ -104,16 +104,20 @@ application
 ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:15:5-60:19
 MERGED from [com.google.firebase:firebase-core:16.0.9] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/b7f22ba7860a2cd13ab9637041f2ddbe/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-core:16.0.9] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/b7f22ba7860a2cd13ab9637041f2ddbe/AndroidManifest.xml:7:5-20
+MERGED from [com.facebook.android:facebook-login:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/e6280b0dacbf5a30768d0dd8196ca126/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/e6280b0dacbf5a30768d0dd8196ca126/AndroidManifest.xml:28:5-29:19
 MERGED from [com.google.firebase:firebase-auth:16.0.5] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/c0db3049d3730c4226463142da27ebcf/AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.firebase:firebase-auth:16.0.5] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/c0db3049d3730c4226463142da27ebcf/AndroidManifest.xml:23:5-40:19
-MERGED from [com.facebook.android:facebook-login:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/5bb3dfdc985c4a414d29027af72b8e68/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-login:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/5bb3dfdc985c4a414d29027af72b8e68/AndroidManifest.xml:28:5-29:19
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/9d24807110517c168f5604640a65e372/AndroidManifest.xml:30:5-36:19
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/9d24807110517c168f5604640a65e372/AndroidManifest.xml:30:5-36:19
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/356f30ca45cc40eec37bd96b612f1e43/AndroidManifest.xml:22:5-37:19
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/356f30ca45cc40eec37bd96b612f1e43/AndroidManifest.xml:22:5-37:19
 MERGED from [com.google.firebase:firebase-analytics:16.5.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/e4ca866bb923cfada01a62f9ccb2860b/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:16.5.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/e4ca866bb923cfada01a62f9ccb2860b/AndroidManifest.xml:7:5-20
+MERGED from [com.facebook.android:facebook-common:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/7fa4c5a00d6877229abca2da08c76f0f/AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/7fa4c5a00d6877229abca2da08c76f0f/AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-core:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/aba57e6b12ce60e7747d48b4d7c671f0/AndroidManifest.xml:28:5-59:19
+MERGED from [com.facebook.android:facebook-core:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/aba57e6b12ce60e7747d48b4d7c671f0/AndroidManifest.xml:28:5-59:19
 MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/169e7f8b1f08e4e2840d7eee597b64b8/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/169e7f8b1f08e4e2840d7eee597b64b8/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/d117e2ac8ad1a0980bf340a0e2a3f5be/AndroidManifest.xml:26:5-34:19
@@ -146,10 +150,6 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/s
 MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/4a7607d2534506d88d94a4e0b5d822a6/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-basement:16.2.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/34f3f369f2e8cafe69c1a1da79425972/AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:16.2.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/34f3f369f2e8cafe69c1a1da79425972/AndroidManifest.xml:22:5-26:19
-MERGED from [com.facebook.android:facebook-common:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/b12c4f55a3b66d90cdced97189bbb738/AndroidManifest.xml:28:5-35:19
-MERGED from [com.facebook.android:facebook-common:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/b12c4f55a3b66d90cdced97189bbb738/AndroidManifest.xml:28:5-35:19
-MERGED from [com.facebook.android:facebook-core:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/6bb61f4c67334ae146207cdce0ef1b56/AndroidManifest.xml:28:5-51:19
-MERGED from [com.facebook.android:facebook-core:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/6bb61f4c67334ae146207cdce0ef1b56/AndroidManifest.xml:28:5-51:19
 MERGED from [androidx.core:core:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/35b9c3ef30d80ff950551f04d689ba79/AndroidManifest.xml:22:5-89
 MERGED from [androidx.core:core:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/35b9c3ef30d80ff950551f04d689ba79/AndroidManifest.xml:22:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/891702afeab6b46abcb942c6d2cb8f3a/AndroidManifest.xml:22:5-23:19
@@ -157,7 +157,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0-rc01] /home/
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/35b9c3ef30d80ff950551f04d689ba79/AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from [com.facebook.android:facebook-login:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/5bb3dfdc985c4a414d29027af72b8e68/AndroidManifest.xml:28:18-44
+		ADDED from [com.facebook.android:facebook-login:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/e6280b0dacbf5a30768d0dd8196ca126/AndroidManifest.xml:28:18-44
 	android:label
 		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:17:9-34
 	android:icon
@@ -208,20 +208,20 @@ ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/m
 		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:42:20-65
 activity#com.facebook.FacebookActivity
 ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:45:5-48:44
-MERGED from [com.facebook.android:facebook-common:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/b12c4f55a3b66d90cdced97189bbb738/AndroidManifest.xml:29:9-32:66
-MERGED from [com.facebook.android:facebook-common:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/b12c4f55a3b66d90cdced97189bbb738/AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-common:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/7fa4c5a00d6877229abca2da08c76f0f/AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-common:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/7fa4c5a00d6877229abca2da08c76f0f/AndroidManifest.xml:29:9-32:66
 	android:label
 		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:48:9-41
 	android:configChanges
 		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:46:9-109
 	android:theme
-		ADDED from [com.facebook.android:facebook-common:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/b12c4f55a3b66d90cdced97189bbb738/AndroidManifest.xml:32:13-63
+		ADDED from [com.facebook.android:facebook-common:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/7fa4c5a00d6877229abca2da08c76f0f/AndroidManifest.xml:32:13-63
 	android:name
 		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:45:15-59
 activity#com.facebook.CustomTabActivity
 ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:49:5-58:16
-MERGED from [com.facebook.android:facebook-common:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/b12c4f55a3b66d90cdced97189bbb738/AndroidManifest.xml:34:9-67
-MERGED from [com.facebook.android:facebook-common:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/b12c4f55a3b66d90cdced97189bbb738/AndroidManifest.xml:34:9-67
+MERGED from [com.facebook.android:facebook-common:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/7fa4c5a00d6877229abca2da08c76f0f/AndroidManifest.xml:34:9-67
+MERGED from [com.facebook.android:facebook-common:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/7fa4c5a00d6877229abca2da08c76f0f/AndroidManifest.xml:34:9-67
 	android:exported
 		ADDED from /home/soban-arshad/Desktop/flutter project/MyMovies/android/app/src/main/AndroidManifest.xml:51:9-32
 	android:name
@@ -260,16 +260,22 @@ MERGED from [:firebase_core] /home/soban-arshad/Desktop/flutter project/MyMovies
 MERGED from [:firebase_core] /home/soban-arshad/Desktop/flutter project/MyMovies/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-core:16.0.9] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/b7f22ba7860a2cd13ab9637041f2ddbe/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-core:16.0.9] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/b7f22ba7860a2cd13ab9637041f2ddbe/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.android:facebook-login:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/e6280b0dacbf5a30768d0dd8196ca126/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/e6280b0dacbf5a30768d0dd8196ca126/AndroidManifest.xml:24:5-26:41
 MERGED from [com.google.firebase:firebase-auth:16.0.5] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/c0db3049d3730c4226463142da27ebcf/AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth:16.0.5] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/c0db3049d3730c4226463142da27ebcf/AndroidManifest.xml:21:5-44
-MERGED from [com.facebook.android:facebook-login:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/5bb3dfdc985c4a414d29027af72b8e68/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-login:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/5bb3dfdc985c4a414d29027af72b8e68/AndroidManifest.xml:24:5-26:41
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/9d24807110517c168f5604640a65e372/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/9d24807110517c168f5604640a65e372/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/356f30ca45cc40eec37bd96b612f1e43/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/356f30ca45cc40eec37bd96b612f1e43/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-analytics:16.5.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/e4ca866bb923cfada01a62f9ccb2860b/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:16.5.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/e4ca866bb923cfada01a62f9ccb2860b/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.android:facebook-common:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/7fa4c5a00d6877229abca2da08c76f0f/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/7fa4c5a00d6877229abca2da08c76f0f/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/aba57e6b12ce60e7747d48b4d7c671f0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/aba57e6b12ce60e7747d48b4d7c671f0/AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.appcompat:appcompat:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/c242acfc9816ab93dbb807bd48630c38/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/c242acfc9816ab93dbb807bd48630c38/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/753253f4ddc32a6fe8cbc0f7962fd519/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/753253f4ddc32a6fe8cbc0f7962fd519/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/169e7f8b1f08e4e2840d7eee597b64b8/AndroidManifest.xml:5:5-44
@@ -308,12 +314,6 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/s
 MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/4a7607d2534506d88d94a4e0b5d822a6/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:16.2.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/34f3f369f2e8cafe69c1a1da79425972/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:16.2.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/34f3f369f2e8cafe69c1a1da79425972/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.android:facebook-common:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/b12c4f55a3b66d90cdced97189bbb738/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-common:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/b12c4f55a3b66d90cdced97189bbb738/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-core:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/6bb61f4c67334ae146207cdce0ef1b56/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-core:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/6bb61f4c67334ae146207cdce0ef1b56/AndroidManifest.xml:24:5-26:41
-MERGED from [androidx.appcompat:appcompat:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/c242acfc9816ab93dbb807bd48630c38/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/c242acfc9816ab93dbb807bd48630c38/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/0c45ff8fbb6c5616dd51ff6d496830fb/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/0c45ff8fbb6c5616dd51ff6d496830fb/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/42c63521aaa99363463c8c85ae5dc6a1/AndroidManifest.xml:20:5-44
@@ -330,10 +330,10 @@ MERGED from [androidx.cardview:cardview:1.0.0-rc01] /home/soban-arshad/.gradle/c
 MERGED from [androidx.cardview:cardview:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/25559ce1d94b83f27629a0d139468cf7/AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/a3ac3177ff1d621417d4bf6bb20efda2/AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/a3ac3177ff1d621417d4bf6bb20efda2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/59760894126d120a9aea8769c87db2ef/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/59760894126d120a9aea8769c87db2ef/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/9cd5946ed806ebbae27a3d60819d20f7/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/9cd5946ed806ebbae27a3d60819d20f7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/59760894126d120a9aea8769c87db2ef/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/59760894126d120a9aea8769c87db2ef/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/7618a853353b378da8b00e6fc7e7d882/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/7618a853353b378da8b00e6fc7e7d882/AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0-rc01] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/bbf3b41cd7de38ab030ff77a090ff10d/AndroidManifest.xml:20:5-44
@@ -456,6 +456,44 @@ ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/soban-arshad
 		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/356f30ca45cc40eec37bd96b612f1e43/AndroidManifest.xml:36:13-107
 	android:name
 		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/356f30ca45cc40eec37bd96b612f1e43/AndroidManifest.xml:34:13-89
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/7fa4c5a00d6877229abca2da08c76f0f/AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/7fa4c5a00d6877229abca2da08c76f0f/AndroidManifest.xml:33:19-68
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/aba57e6b12ce60e7747d48b4d7c671f0/AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/aba57e6b12ce60e7747d48b4d7c671f0/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/aba57e6b12ce60e7747d48b4d7c671f0/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/aba57e6b12ce60e7747d48b4d7c671f0/AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/aba57e6b12ce60e7747d48b4d7c671f0/AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/aba57e6b12ce60e7747d48b4d7c671f0/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/aba57e6b12ce60e7747d48b4d7c671f0/AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/aba57e6b12ce60e7747d48b4d7c671f0/AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/aba57e6b12ce60e7747d48b4d7c671f0/AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/aba57e6b12ce60e7747d48b4d7c671f0/AndroidManifest.xml:48:25-92
+receiver#com.facebook.CampaignTrackingReceiver
+ADDED from [com.facebook.android:facebook-core:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/aba57e6b12ce60e7747d48b4d7c671f0/AndroidManifest.xml:51:9-58:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/aba57e6b12ce60e7747d48b4d7c671f0/AndroidManifest.xml:53:13-36
+	android:permission
+		ADDED from [com.facebook.android:facebook-core:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/aba57e6b12ce60e7747d48b4d7c671f0/AndroidManifest.xml:54:13-69
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/aba57e6b12ce60e7747d48b4d7c671f0/AndroidManifest.xml:52:13-65
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.facebook.android:facebook-core:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/aba57e6b12ce60e7747d48b4d7c671f0/AndroidManifest.xml:55:13-57:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.facebook.android:facebook-core:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/aba57e6b12ce60e7747d48b4d7c671f0/AndroidManifest.xml:56:17-79
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.1.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/aba57e6b12ce60e7747d48b4d7c671f0/AndroidManifest.xml:56:25-76
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/d117e2ac8ad1a0980bf340a0e2a3f5be/AndroidManifest.xml:24:5-68
 MERGED from [com.google.firebase:firebase-iid:17.1.2] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/c5714ba200637fec4312e1acf0f86d42/AndroidManifest.xml:24:5-68
@@ -560,12 +598,6 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /h
 		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/664ff8e451cca9527048d8db39634f12/AndroidManifest.xml:38:13-69
 	android:name
 		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/664ff8e451cca9527048d8db39634f12/AndroidManifest.xml:35:13-100
-intent-filter#action:name:com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/664ff8e451cca9527048d8db39634f12/AndroidManifest.xml:39:13-41:29
-action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/664ff8e451cca9527048d8db39634f12/AndroidManifest.xml:40:17-79
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/664ff8e451cca9527048d8db39634f12/AndroidManifest.xml:40:25-76
 service#com.google.android.gms.measurement.AppMeasurementService
 ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/664ff8e451cca9527048d8db39634f12/AndroidManifest.xml:44:9-47:40
 	android:enabled
@@ -590,27 +622,3 @@ ADDED from [com.google.android.gms:play-services-basement:16.2.0] /home/soban-ar
 		ADDED from [com.google.android.gms:play-services-basement:16.2.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/34f3f369f2e8cafe69c1a1da79425972/AndroidManifest.xml:25:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:16.2.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/34f3f369f2e8cafe69c1a1da79425972/AndroidManifest.xml:24:13-58
-activity#com.facebook.CustomTabMainActivity
-ADDED from [com.facebook.android:facebook-common:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/b12c4f55a3b66d90cdced97189bbb738/AndroidManifest.xml:33:9-71
-	android:name
-		ADDED from [com.facebook.android:facebook-common:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/b12c4f55a3b66d90cdced97189bbb738/AndroidManifest.xml:33:19-68
-provider#com.facebook.internal.FacebookInitProvider
-ADDED from [com.facebook.android:facebook-core:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/6bb61f4c67334ae146207cdce0ef1b56/AndroidManifest.xml:39:9-42:40
-	android:authorities
-		ADDED from [com.facebook.android:facebook-core:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/6bb61f4c67334ae146207cdce0ef1b56/AndroidManifest.xml:41:13-72
-	android:exported
-		ADDED from [com.facebook.android:facebook-core:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/6bb61f4c67334ae146207cdce0ef1b56/AndroidManifest.xml:42:13-37
-	android:name
-		ADDED from [com.facebook.android:facebook-core:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/6bb61f4c67334ae146207cdce0ef1b56/AndroidManifest.xml:40:13-70
-receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
-ADDED from [com.facebook.android:facebook-core:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/6bb61f4c67334ae146207cdce0ef1b56/AndroidManifest.xml:44:9-50:20
-	android:exported
-		ADDED from [com.facebook.android:facebook-core:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/6bb61f4c67334ae146207cdce0ef1b56/AndroidManifest.xml:46:13-37
-	android:name
-		ADDED from [com.facebook.android:facebook-core:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/6bb61f4c67334ae146207cdce0ef1b56/AndroidManifest.xml:45:13-86
-intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
-ADDED from [com.facebook.android:facebook-core:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/6bb61f4c67334ae146207cdce0ef1b56/AndroidManifest.xml:47:13-49:29
-action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
-ADDED from [com.facebook.android:facebook-core:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/6bb61f4c67334ae146207cdce0ef1b56/AndroidManifest.xml:48:17-95
-	android:name
-		ADDED from [com.facebook.android:facebook-core:4.39.0] /home/soban-arshad/.gradle/caches/transforms-2/files-2.1/6bb61f4c67334ae146207cdce0ef1b56/AndroidManifest.xml:48:25-92

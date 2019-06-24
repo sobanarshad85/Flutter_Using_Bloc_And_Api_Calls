@@ -3,7 +3,11 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_facebook_login/flutter_facebook_login.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:my_movies/src/routes/navigation_router.dart';
 import 'package:my_movies/src/ui/progile_screen.dart';
+import 'package:flutter_facebook_login/flutter_facebook_login.dart';
+import 'package:http/http.dart' as http;
+import 'dart:convert';
 
 
 class LoginPage extends StatefulWidget {  
@@ -15,6 +19,18 @@ class _GoogleSignAppState extends State<LoginPage> {
 
   final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
   final GoogleSignIn _googlSignIn = new GoogleSignIn();
+
+   bool isLoggedIn = false;
+  var profileData;
+
+  var facebookLogin = FacebookLogin();
+
+  void onLoginStatusChanged(bool isLoggedIn, {profileData}) {
+    setState(() {
+      this.isLoggedIn = isLoggedIn;
+      this.profileData = profileData;
+    });
+  }
 
 Future<FirebaseUser> _signIn(BuildContext context) async {
   
@@ -43,12 +59,14 @@ List<ProviderDetails> providerData = new List<ProviderDetails>();
         userDetails.email,
         providerData,
 );
-    Navigator.push(
-      context,
-      new MaterialPageRoute(
-        builder: (context) => new ProfileScreen(detailsUser: details),
-      ),
-    );
+
+NavigationRouter.switchToLogin(context);
+    // Navigator.push(
+    //   context,
+    //   new MaterialPageRoute(
+    //     builder: (context) => new ProfileScreen(detailsUser: details),
+    //   ),
+    // );
     return userDetails;
   }
 
@@ -117,7 +135,9 @@ List<ProviderDetails> providerData = new List<ProviderDetails>();
                       style: TextStyle(color: Colors.black,fontSize: 18.0),
                     ),
                     ],),
-                    onPressed: () {},
+                    onPressed: () {
+                      initiateFacebookLogin();
+                    },
                   ),
                 )
                 ),
@@ -149,6 +169,68 @@ List<ProviderDetails> providerData = new List<ProviderDetails>();
       ),),
     );
   }
+   void initiateFacebookLogin() async {
+    var facebookLoginResult =
+        await facebookLogin.logInWithReadPermissions(['email']);
+
+    switch (facebookLoginResult.status) {
+      case FacebookLoginStatus.error:
+        onLoginStatusChanged(false);
+        break;
+      case FacebookLoginStatus.cancelledByUser:
+        onLoginStatusChanged(false);
+        break;
+      case FacebookLoginStatus.loggedIn:
+        var graphResponse = await http.get(
+            'https://graph.facebook.com/v2.12/me?fields=name,first_name,last_name,email,picture.height(200)&access_token=${facebookLoginResult
+                .accessToken.token}');
+
+        var profile = json.decode(graphResponse.body);
+        print(profile.toString());
+
+        NavigationRouter.switchToLogin(context);
+
+        onLoginStatusChanged(true, profileData: profile);
+        break;
+    }
+  }
+
+  _displayUserData(profileData) {
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      children: <Widget>[
+        Container(
+          height: 200.0,
+          width: 200.0,
+          decoration: BoxDecoration(
+            shape: BoxShape.circle,
+            image: DecorationImage(
+              fit: BoxFit.fill,
+              image: NetworkImage(
+                profileData['picture']['data']['url'],
+              ),
+            ),
+          ),
+        ),
+        SizedBox(height: 28.0),
+        Text(
+          "Logged in as: ${profileData['name']}",
+          style: TextStyle(
+            fontSize: 20.0,
+          ),
+        ),
+      ],
+    );
+  }
+
+
+
+  _logout() async {
+    await facebookLogin.logOut();
+    onLoginStatusChanged(false);
+    print("Logged out");
+  }
+
 }
 
 
