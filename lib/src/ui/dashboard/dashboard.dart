@@ -133,7 +133,7 @@ class _DashboardScreen extends State<Dashboard> {
   }
 
   toLogout() {
-    NavigationRouter.switchToLogin(context);
+    NavigationRouter.switchToLoginPage(context);
   }
 }
 

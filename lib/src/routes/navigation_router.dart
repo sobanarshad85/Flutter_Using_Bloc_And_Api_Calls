@@ -7,8 +7,15 @@ class NavigationRouter {
     Navigator.pushReplacementNamed(context, "/Login");
   }
 
+  static void switchToLoginPage(BuildContext context) {
+    Navigator.pushReplacementNamed(context, "/LoginPage");
+  }
+
   static void switchToSignup(BuildContext context) {
-    Navigator.push(context,  MaterialPageRoute(builder: (context) => Signup()),);
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => Signup()),
+    );
   }
 
   static void switchToDashboard(BuildContext context) {

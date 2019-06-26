@@ -16,6 +16,7 @@ import 'package:my_movies/src/ui/signup.dart';
 class Routes {
   final routes = <String, WidgetBuilder>{
     "/Login": (BuildContext context) => Login(),
+    "/LoginPage": (BuildContext context)=> LoginPage(),
     "/Dashboard": (BuildContext context) => Dashboard(),
     "/Signup":(BuildContext context)=> Signup(),
   };
