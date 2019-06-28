@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:my_movies/src/routes/navigation_router.dart';
+import 'package:my_movies/src/ui/dashboard/fragments/dragbale.dart';
 import 'package:my_movies/src/ui/dashboard/fragments/maps.dart';
 import 'package:my_movies/src/ui/movie_list.dart';
 // import 'package:redeye/util/navigation_router.dart';
@@ -30,6 +31,7 @@ class Dashboard extends StatefulWidget {
       new DrawerItem("About us", Icons.print),
       new DrawerItem("Contact us", Icons.contacts),
       new DrawerItem("Maps", Icons.map),
+      new DrawerItem("DragableExample", Icons.drag_handle),
       new DrawerItem("Logout", Icons.exit_to_app)
     ];
   }
@@ -106,6 +108,8 @@ class _DashboardScreen extends State<Dashboard> {
         return new Contact();
       case 4:
         return new KodetrApp();
+      case 5:
+      return new DragableExample();  
       default:
         return new Text("Error");
     }
@@ -123,9 +127,11 @@ class _DashboardScreen extends State<Dashboard> {
         return Dashboard.heading = 'About';
       case 3:
         return Dashboard.heading = 'Contacts';
-      case 4:
-        return Dashboard.heading = 'Maps';
+        case 4:
+        return Dashboard.heading ='Maps';
       case 5:
+        return Dashboard.heading = 'Dragable Example';
+      case 6:
         return toLogout();
       default:
         return new Text("Error");
